@@ -1,0 +1,119 @@
+#menu{
+	background-color: yellow;
+}
+h3{
+	font-weight: bold;
+	font-size: 20px;
+}
+h1{
+	font-weight: bold;
+}
+/** HEADER **/
+#header-nav {
+  background-color: grey;
+  border-radius: 0;
+  border: 2px solid black;
+}
+
+.navbar-brand {
+  padding-top: 25px;
+}
+.navbar-brand h1 { 
+  font-family: 'Lora', serif;
+  color: black;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: black;
+  text-align: center;
+  border: 1px solid black;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid white;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+/* END HEADER */
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+#menu{
+  margin: 10px;
+  padding: 20px;
+  width: auto;
+  height: auto;
+}
+.mobile {
+	opacity: 0;
+	height: 0;
+}
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+#menu{
+  margin: 10px;
+  padding: 20px;
+  width: auto;
+  height: auto;
+}
+.mobile {
+	opacity: 0;
+	height: 0;
+}
+  }
+
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  #menu{
+  margin: 10px;
+  padding: 20px;
+  width: auto;
+  height: auto;
+}
+.mobile {
+	opacity: 0;
+	height: 0;
+}
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  #menu{
+  margin: 10px;
+  padding: 20px;
+  width: auto;
+  height: auto;
+}
+  .mobile{
+  	opacity: 1;
+  }
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+  .navbar-brand h1 { 
+    padding-top: 10px;
+    font-size: 5vw; 
+  }
+  #collapsable-nav a { 
+    font-size: 1.2em;
+  }
